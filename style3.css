@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(239, 245, 245);
+    
+    background-image: url(https://getsling.com/wp-content/uploads/2019/07/pasted-image-0-13.png);
+}  
+*
+{
+    margin:0%;
+    padding: 0;
+    font-family: sans-serif;
+} 
+.banner
+{
+    height: 100vh;
+    width: 100%;
+    background-image:linear-Gradient(rgba(0,0,0,0.75)rgba(0,0,0,0.75)),url(download.jpg);
+    background-position:center;
+    background-size:100%;
+    
+}
+.logo
+{
+    width:15%;
+    height:100;
+}
+.nav
+{
+    width: 85%;
+    margin: auto;
+    padding: 35px;
+    display:flex;
+    align-items: ceter;
+    justify-content: space-between;
+}
+.nav ul li
+{
+    list style:none;
+    display:inline-block;
+    margin:20px;
+    positon:relative;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+. nav ul li ::after{
+    content: '';
+    height:3px;
+    width:100%;
+    background:#009688;
+    positon:absolute;
+    left: 0;
+    bottom: -10px;
